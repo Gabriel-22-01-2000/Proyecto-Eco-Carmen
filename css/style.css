@@ -41,6 +41,7 @@ header .log p{font-weight: bold;font-style: oblique;font-size: 1.3em;}
 header nav{flex-grow: 1;}
 header nav ul{
     display: flex;
+    flex: wrap;
     justify-content: center;
 }
 header nav ul li a{
