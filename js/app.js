@@ -1,8 +1,15 @@
-function navBar() {
-    console.info("El Div funciona");
-    var btn = document.getElementsByClassName('nav-enlace');
-    for(var i = 0;i < btn.length;i++)
-    {
-       btn[i].classList.toggle('close');
-    }
-} 
+const newSlide = () => {
+    const burger = document.querySelector('.burger');
+    const nav  = document.querySelector('ul');
+    const navlink = document.querySelectorAll('ul li');
+
+    burger.addEventListener('click', () => {
+        nav.classList.toggle('nav-active');
+
+    burger.classList.toggle('toggle');
+    });
+
+
+};
+
+newSlide();
