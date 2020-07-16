@@ -15,8 +15,15 @@ nav{
     justify-content:space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: rgb(10, 2, 1);
+    background-color: rgb(55, 87, 4);
 }
+
+nav ul li a:hover{
+    background-color:white;
+    color:black;
+    border-radius: 3px;
+}
+
 
 .logo{
     color: white;
@@ -36,6 +43,8 @@ ul li{
 
 nav ul li a{
   color: rgb(255, 254, 254);
+  border:1px solid #ffff;
+    padding: 4px 20px;
   text-decoration: none;
   letter-spacing:1px;
   font-weight:500;
