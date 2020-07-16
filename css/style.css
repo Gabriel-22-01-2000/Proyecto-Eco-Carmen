@@ -275,38 +275,4 @@ main .contacto article{
 }
 
 
-    /*Footer*/
-
- footer{
-     width: 100%;
-     padding: 30px;
-     background-color: var(--secondary-color);
-     display: flex;
-     justify-content: space-around;
-     align-items: center;
- }
-
- footer a{
-     width: 30%;
-     text-align: center;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     color: var(--generic-color);
-     transition: all .7s ease;
- }
- footer a > img{
-     width: 40px;
-     margin: 0px 10px;
- }
- footer a:hover
- {
-    transform: translate(0px, -10px);
- }
- 
- 
-
-
-@media screen and (max-width:800px){
-
-}
+  

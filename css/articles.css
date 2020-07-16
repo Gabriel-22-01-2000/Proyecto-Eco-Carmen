@@ -85,6 +85,10 @@ main{
 
 
 @media screen and (max-width:800px){
+
+    main{
+        flex-direction: column;
+    }
     .cards{
         width: 100%;
         flex-direction: column;
@@ -129,3 +133,16 @@ main .aside article a{
     font-weight:bold;
 }
 
+@media screen and (max-width:800px){
+    main .aside{
+        width: 100%;
+        box-sizing: border-box;
+        margin:0 auto;
+    }
+
+    main .aside article
+    {
+        border: 2px solid #0000;
+    }
+    
+}
