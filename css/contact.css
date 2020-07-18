@@ -103,7 +103,7 @@ main{
         border: 3px solid rgb(201, 218, 201);
         background-color: rgba(140, 167, 140, 0.7);
         width: 30%;
-    }
+        }
     
     #main article h2{
       margin-bottom: 5px;
@@ -127,12 +127,19 @@ main{
         padding: 0px 5px;
     }
     
-@media screen and (max-width:800px){
+@media screen and (max-width:1000px){
   
+   main{
+       
+    margin: 0px auto 30px auto;
+    background: transparent;
+   }
+
     #main article{
        width: 100%;
        font-size:.8em;
-       padding:20px;    
+       padding:10px;  
+       margin:0px auto 50px 0px;  
     }
 
 }
