@@ -8,6 +8,11 @@
 
 }
 
+span{
+    color: rgb(194, 122, 13);
+    font-weight: normal;
+}
+
 nav{
     /* position:fixed;
     width:100%; */

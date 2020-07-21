@@ -5,7 +5,7 @@
     footer{
         width: 100%;
         padding: 20px 30px;
-        background-color: var(--secondary-color);
+        background-color: #33570b;
         display: flex;
         justify-content: space-around;
         align-items: center;
