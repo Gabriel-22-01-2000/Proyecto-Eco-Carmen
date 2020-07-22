@@ -1,10 +1,11 @@
+
 ## Eco Carmen
 
 <p><strong>
- Este proyecto o bien un sitio web fue desarrollado con la finalidad de llevar conciencia a las personas de mi comunidad.
+ Este sitio web fue desarrollado con la finalidad de llevar conciencia  y conocimientos sobre el cuidado del medio ambiente a las personas de mi comunidad.
 </strong></p>
 
-### Caracteristicas
+### Caracteristicas del sitio
 
 <ul>
   <li>Intuitivo</li>
@@ -18,52 +19,43 @@
 ### Objetivos del sitio
 
    <p>El sitio tiene la mision de llevar conciencia a todas las personas de mi comunidad sobre el cuidado del medio ambiente por medio de articulos informativos y faciles de entender.</p>
-
-   <p></p>
-
+  
+  <h3>Deseamos promever:</h3>
    
 <ul>
-  <li>Community</li>
-  <li>Development</li>
-  <li>Information</li>
-  <li>Productivity</li>
-  <li>Learning</li>
+  <li>Conciencia ambiental.</li>
+  <li>Educación.</li>
+  <li>La responsabilidad ambiental.</li>
+  <li>El respeto hacia los demas.</li>
+  <li>Empatia por los demas.</li>
 </ul>
 
 
-   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse vitae labore officiis doloresiure, quis molestiae accusamus aliquid. Iusto commodi eius incidunt repudiandae id nihil consequunturerror deserunt</p>
 
+### Resumen técnico
 
-### Previews
-
-   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse vitae labore officiis doloresiure, quis molestiae accusamus aliquid. Iusto commodi eius incidunt repudiandae id nihil consequunturerror deserunt</p>
+   <p>Este proyecto es simple en cuanto ha tegnologias usadas durante su desarrollo, pero ello no hace menos el esfuerzo colocado para concluir y llevar a cabo este.
+   </p>
    
    #### <a href="https://gabriel-22-01-2000.github.io/Proyecto-Eco-Carmen/" target="_blank"> Ver sitio</a>
 
   
-   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse vitae labore officiis doloresiure, quis molestiae accusamus aliquid. Iusto commodi eius incidunt repudiandae id nihil consequunturerror deserunt</p>
+   <p>Este proyecto o bien este sitio WEB es netamente responsive por lo que puede ser visualizado en telefonos celulares sin ninguna complicación:<p>
 
-   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse vitae labore officiis doloresiure, quis molestiae accusamus aliquid. Iusto commodi eius incidunt repudiandae id nihil consequunturerror deserunt</p>
+   <img src="./img/d.png" alt="responsive" width="300px" height="auto">
+   <br /><br />
+   <img src="./img/eco.png" width="300px">
+   
+  
+  <h3>Tecnologias utilizadas</h3>
+   
+<ul>
+  <li>HTML5</li>
+  <li>CSS3</li>
+  <li>Javascript</li>
+  <li>Git</li>
+</ul>
 
-<table style="width:100%">
-  <tr>
-    <th>Firstname</th>
-    <th>Lastname</th>
-    <th>Age</th>
-  </tr>
-  <tr>
-    <td>Jill</td>
-    <td>Smith</td>
-    <td>50</td>
-  </tr>
-  <tr>
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>94</td>
-  </tr>
-</table>   
-
-
-
+<p>Aunque no sea la gran cosa este sitio web, me siento bien por que es algo que creado y aplicado gracias a los conocimientos obetenidos durante mi aprendizaje como autodidacta.<p>
 
 

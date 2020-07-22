@@ -5,7 +5,6 @@
     padding: 0px;
     border: 0px;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -92,12 +91,13 @@ main{
     .cards{
         width: 100%;
         flex-direction: column;
+        margin: 8vh auto;
     }
     .cards .card{
         text-align:center;
         padding:0px;
         width: 100%;
-        margin: 10vh auto;
+        margin: 5vh auto;
     }    
 }
 
@@ -142,6 +142,7 @@ main .aside article a{
     {
         border: 2px solid #0000;
         padding: 10px;
+        margin-top: 10px;
     }
     
 }
