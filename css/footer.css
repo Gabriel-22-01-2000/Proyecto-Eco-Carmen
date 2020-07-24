@@ -12,12 +12,13 @@
     }
    
     footer a{
-        width: 30%;
+        width: 40%;
         text-align: center;
         display: flex;
         justify-content: center;
         align-items: center;
-        color: var(--generic-color);
+        color: white;
+        text-decoration: none;
         transition: all .7s ease;
     }
     footer a > img{

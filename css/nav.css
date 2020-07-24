@@ -10,7 +10,7 @@
 
 }
 
-span{
+h3 span{
     color: rgb(194, 122, 13);
     font-weight: normal;
 }
@@ -84,7 +84,6 @@ ul{
         overflow: hidden;/*Esconde la lista debido a que se encuentra a un lado*/
     }
     nav{
-        position:fixed;
         width:100%;
     }
     ul{

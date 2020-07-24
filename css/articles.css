@@ -1,12 +1,5 @@
   /*GENERAL*/
 
-*{
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-    box-sizing: border-box;
-
-}
 
 :root{
     --primary-color: rgb(6, 82, 6);
@@ -91,13 +84,13 @@ main{
     .cards{
         width: 100%;
         flex-direction: column;
-        margin: 8vh auto;
+        margin: 2vh auto;
     }
     .cards .card{
         text-align:center;
         padding:0px;
         width: 100%;
-        margin: 5vh auto;
+        margin: 2vh auto;
     }    
 }
 
