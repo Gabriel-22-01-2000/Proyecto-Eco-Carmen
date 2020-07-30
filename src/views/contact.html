@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/nav.css" type="text/css"/>
+    <link rel="stylesheet" href="/css/footer.css" type="text/css"/>
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+
+    
+    <link rel="shortcut icon" href="/img/github.svg" type="image/x-icon">
+
+
+
+    <title><%= title %></title>
+</head>
+<body>
+
+  
+    <%- include ('partials/nav.html')%>
+
+
+<main>
+        <section id="main">
+            <form action="/contact" method="post" class="animate__animated animate__flipInY">
+                <label for="name">Escribe tu nombre:</label>    
+                <input type="text" id="name" placeholder="Name">
+
+                <label for="email">Escribe tu email:</label>    
+                <input type="email" id="email" placeholder="Email">
+                
+
+                <label for="age">Seleciona tu edad:</label>    
+                <input type="number" id="age" max="100" min="1" placeholder="Select your age">
+                
+                <input type="submit" value="Unirse">
+
+            </form>
+
+
+            <article>
+                <h2>Anuncio</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quis
+                    explicabo quibusdam minima delectus, atque, saepe at veniam, porro 
+                    explicabo quibusadam minima delectus, atque, saepe at veniam, porro 
+                    explicabo quibusdam minima delectus, atque, saepe at veniam, porro
+                    explicabo quibusdam minima delectus, atque, saepe at veniam, porro 
+                    unde dicta optio deleniti excepturi. <a href="#"> Ver mas</a>
+                </p>
+            </article>
+            
+        </section>
+    </main>
+
+    
+
+    <%- include ('partials/footer.html')%>
+
+    
+            <script src="/js/app.js"></script>
+
+
+</body>
+</html>
