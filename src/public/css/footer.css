@@ -1,0 +1,41 @@
+
+
+    /*Footer*/
+
+    footer{
+        width: 100%;
+        padding: 20px 30px;
+        background-color: #33570b;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+   
+    footer a{
+        width: 40%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-decoration: none;
+        transition: all .7s ease;
+    }
+    footer a > img{
+        width: 40px;
+        margin: 0px 10px;
+    }
+    footer a:hover
+    {
+       transform: translate(0px, -10px);
+    }
+    
+    
+   
+   
+   @media screen and (max-width:800px){
+      footer{
+          padding: 10px;
+      }
+   }
+   

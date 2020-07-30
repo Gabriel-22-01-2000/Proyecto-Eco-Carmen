@@ -1,0 +1,29 @@
+{
+  "name": "proyecto_innovador_1",
+  "version": "1.0.0",
+  "description": "<p><strong>\r  Este sitio web fue desarrollado con la finalidad de llevar conciencia  y conocimientos sobre el cuidado del medio ambiente a las personas de mi comunidad.\r </strong></p>",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src",
+     "start": "node src"
+  }, 
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gabriel-22-01-2000/Proyecto-Eco-Carmen.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gabriel-22-01-2000/Proyecto-Eco-Carmen/issues"
+  },
+  "homepage": "https://github.com/Gabriel-22-01-2000/Proyecto-Eco-Carmen#readme",
+  "dependencies": {
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "engines": {
+    "node": "12.x"
+  }
+}

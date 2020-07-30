@@ -1,0 +1,142 @@
+  /*GENERAL*/
+
+
+:root{
+    --primary-color: rgb(6, 82, 6);
+    --secondary-color: rgb(8, 133, 8);
+    --generic-color: white;
+    --defaul-color: black;
+}
+
+
+a{text-decoration: none; padding: 1px;}
+.select{
+    background-color:white;
+    color:black;
+    border-radius: 3px;
+}
+
+
+main{
+    width:100%;
+    padding:10px 20px;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content:space-around;
+}
+
+/*Sección de tarjetas*/
+
+.cards{
+    width:70%;
+    box-sizing: border-box;
+    margin: 10px auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cards .card{
+    width: 45%;
+    margin: 10px 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/*img*/
+.cards .card img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+}
+.cards .card .title-card{
+    margin: 5px 0px 10px 0px;
+    font-weight: bold;
+    padding:5px;
+}
+.cards .card .text-card
+{margin-bottom: 15px;padding:10px;}
+.cards .card .btn-card
+{  
+    text-align: center;
+    margin: 50px auto;
+}
+
+.cards .card .btn-card a{
+    color: var(--defaul-color);
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 8px;
+    transition: all ease .7s;
+  
+}
+.cards .card .btn-card a:hover{
+    background-color: var(--secondary-color);
+    color: var(--generic-color);
+}
+
+
+@media screen and (max-width:800px){
+
+    main{
+        flex-direction: column;
+    }
+    .cards{
+        width: 100%;
+        flex-direction: column;
+        margin: 2vh auto;
+    }
+    .cards .card{
+        text-align:center;
+        padding:0px;
+        width: 100%;
+        margin: 6vh auto 2vh auto;
+    }    
+}
+
+main .aside{
+    width: 27%;
+    margin: 20px;
+    padding: 20px 50px;
+}
+
+main .aside article{
+    margin: 50px auto 50px auto;
+    padding:10px;
+    text-align:justify;
+    border-right: 2px solid #333;
+    border-bottom: 2px solid #333;
+    border-radius: 10px;
+}
+
+
+main .aside article h2{
+    margin:0px 0px 20px 0px;
+    font-weight: bold;
+} 
+
+
+main .aside article p{
+    margin:10px 0px;
+}
+main .aside article a{
+    color:#044104;
+    font-weight:bold;
+}
+
+@media screen and (max-width:800px){
+    main .aside{
+        width: 100%;
+        margin:0px auto 10px auto;
+        flex-direction: column;
+    }
+
+    main .aside article
+    {
+        border: 2px solid #0000;
+        padding: 10px;
+        margin-top: 10px;
+    }
+    
+}
