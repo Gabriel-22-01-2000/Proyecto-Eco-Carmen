@@ -37,14 +37,14 @@
    <p>Este proyecto es simple en cuanto ha tegnologias usadas durante su desarrollo, pero ello no hace menos el esfuerzo colocado para concluir y llevar a cabo este.
    </p>
    
-   #### <a href="https://gabriel-22-01-2000.github.io/Proyecto-Eco-Carmen/" target="_blank"> Ver sitio</a>
+   #### <a href="https://ecocarmenofi.herokuapp.com/" target="_blank"> Ver sitio</a>
 
   
    <p>Este proyecto o bien este sitio WEB es netamente responsive por lo que puede ser visualizado en telefonos celulares sin ninguna complicación:<p>
 
-   <img src="./img/d.png" alt="responsive" width="300px" height="auto">
+   <img src="./src/public/img/d.png" alt="responsive" width="300px" height="auto">
    <br /><br />
-   <img src="./img/eco.png" width="300px">
+   <img src="./src/public/img/eco.png" width="300px">
    
   
   <h3>Tecnologias utilizadas</h3>
@@ -54,6 +54,9 @@
   <li>CSS3</li>
   <li>Javascript</li>
   <li>Git</li>
+  <li>Ejs</li>
+  <li>Heroku</li>
+  <li>Node.js</li>
 </ul>
 
 <p>Aunque no sea la gran cosa este sitio web, me siento bien por que es algo que creado y aplicado gracias a los conocimientos obetenidos durante mi aprendizaje como autodidacta.<p>
