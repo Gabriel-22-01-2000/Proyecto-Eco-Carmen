@@ -85,6 +85,7 @@ ul{
     }
     nav{
         width:100%;
+        position: fixed;
     }
     ul{
         position:fixed;
